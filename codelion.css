@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Lilita+One&family=Montserrat:wght@500&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gentium+Book+Basic&family=Lilita+One&family=Montserrat:wght@500&family=Red+Hat+Text:wght@300&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gentium+Book+Basic&family=Lilita+One&family=Montserrat:wght@500&family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Red+Hat+Text:wght@300&family=Yeseva+One&display=swap');
+* {
+    font-family:  'Lilita One', cursive;
+    box-sizing: border-box;
+}
+
+body,h1,h2 {
+    margin:0px;
+    padding:0px;
+}
+
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size:80px;
+    font-weight: normal;
+    font-style: normal;
+    color: mediumorchid;;
+}
+
+
+h2 {
+    font-size:35px;
+    color:#282828;
+    font-weight: normal;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 5px;
+}
+
+.name-text {
+    font-size:25px;
+    color: orchid;
+    font-weight: normal;
+}
+
+
+.about-me-text {
+    font-size:10px;
+    line-height: 16px;
+}
+
+.title-box {
+    float: right;
+    width: 84%;
+    text-align: left;
+    padding: 100px;
+}
+
+.sidebar {
+    text-decoration: none;
+    background-color: mediumorchid;
+    color: white;
+    float: left;
+    margin:0;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 16%;
+    height: 100vh;
+}
+
+
+
+.content {
+    float: right;
+    width: 84%;
+    padding: 100px;
+    overflow: auto;
+}
+
+.intro-text {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.intro-subtext {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: normal;    
+}
+
+.sidebar li {
+    font-weight: lighter;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:mediumslateblue;
+}
+
+a:active {
+    color: white;
+}
+section {
+    margin-bottom:24px;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.title-text {
+    font-size:20px;
+    font-weight: normal;
+    color: #282828;
+    float: left;
+}
+
+.year-text{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    color: orchid;
+    float: right;
+}
+
+.desc-text {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.club-text{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+}
+.desc-subtext {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color:#282828;
+    padding-left:16px;
+}
+
+.sns-img {
+    width:12px;
+    height:12px;
+}
+
+.sns-wrap {
+    text-align:right;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    font-size: 12px;
+    color: #919191;
+}
+
+
